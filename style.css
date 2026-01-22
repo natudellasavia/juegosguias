@@ -1,0 +1,129 @@
+/* Contenedor principal centrado vertical y horizontal */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* Limites de ancho para el contenido */
+main {
+    width: 100%;
+    max-width: 500px; /* limite en pantallas grandes */
+    min-width: 100px; /* no se achica demasiado en móviles */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial;
+    text-align: center;
+}
+
+.centrado {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Clase de los títulos */
+.text {
+    font-size: 19px;
+    margin: 0px;
+}
+
+p{
+    font-size: 13px;
+    margin: 0px;
+}
+
+.ramas{
+    margin: 12px 5px 0px 5px;
+    border-radius: 10px;
+    height: 25px;
+}
+
+.boton{
+    padding: 10px;
+    margin: 17px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: #000;
+    color: white;
+    border: 0px solid #000; /* Saca el borde por defecto del botón */
+}
+
+.boton-volver {
+    padding: 10px;
+    margin: 5px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: white;
+    color: #000;
+    border: 0px solid #000; /* Saca el borde por defecto del botón */
+}
+
+.boton-volver:hover {
+    background-color: #000080;
+    color: white;
+}
+
+.btn-block {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#txFallos{
+    padding: 10px;
+    margin: 17px 0px 0px 0px;
+    font-size: 14px;
+}
+
+#denuevo{
+    display: none;
+    padding: 10px;
+    margin: 17px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: #000080;
+    color: white;
+}
+
+.ramo{
+    background-color: #ea2d2d;
+    color: #001;
+    font-weight: 600;
+}
+
+.ronda{
+    background-color: #f3d342;
+    color: #001;
+    font-weight: 600;
+}
+
+.caravana{
+    background-color: #97c5e7;
+    color: #001;
+    font-weight: 600;
+}
+
+.colonia{
+    background-color: #e175aa;
+    color: #001;
+    font-weight: 600;
+}
+
+.solar{
+    background-color: #76ac87;
+    color: #001;
+    font-weight: 600;
+}
+
+.clan{
+    background-color: #7b1919;
+    color: #001;
+    font-weight: 600;
+}
